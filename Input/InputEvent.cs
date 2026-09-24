@@ -1,4 +1,4 @@
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>One decoded input: a button press/release, a scroll, a key, or (optionally) movement.</summary>
 /// <param name="IsMinor">Releases and key repeats — hidden unless "Show releases" is on.</param>

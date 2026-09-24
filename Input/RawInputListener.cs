@@ -3,10 +3,10 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Interop;
-using RingInspector.Mapping;
-using static RingInspector.Native.NativeMethods;
+using InputDeviceInterceptor.Mapping;
+using static InputDeviceInterceptor.Native.NativeMethods;
 
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>
 /// Listens to keyboards, mice, media-key (consumer), touch/digitizer, gamepad and telephony HID collections

@@ -1,7 +1,7 @@
 using System.IO;
 using System.Text.Json;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 /// <summary>A touch collection this app has hidden from Windows and reads itself.</summary>
 public sealed record BlockedCollection(
@@ -20,11 +20,11 @@ public sealed class TouchBlockState
     public bool ReadWhileBlocked { get; set; } = true;
 }
 
-/// <summary>Persists touch blocking to %AppData%\RingInspector\touch-block.json.</summary>
+/// <summary>Persists touch blocking to %AppData%\InputDeviceInterceptor\touch-block.json.</summary>
 public static class TouchBlockStore
 {
     static readonly string FilePath = Path.Combine(
-        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "RingInspector", "touch-block.json");
+        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "InputDeviceInterceptor", "touch-block.json");
 
     static readonly JsonSerializerOptions Options = new() { WriteIndented = true };
 

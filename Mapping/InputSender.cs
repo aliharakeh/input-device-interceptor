@@ -1,6 +1,6 @@
-using static RingInspector.Native.NativeMethods;
+using static InputDeviceInterceptor.Native.NativeMethods;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 /// <summary>Synthesizes scroll and keyboard input with SendInput, tagged so our own hook lets it through.</summary>
 public static unsafe class InputSender

@@ -1,9 +1,9 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.Json.Serialization;
-using RingInspector.Input;
+using InputDeviceInterceptor.Input;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 public enum MappingOperation
 {

@@ -1,6 +1,6 @@
 using System.Windows.Input;
 
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>Names and default Windows behavior for keyboard virtual-key codes.</summary>
 public static class KeyTable

@@ -1,9 +1,9 @@
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Threading;
-using static RingInspector.Native.NativeMethods;
+using static InputDeviceInterceptor.Native.NativeMethods;
 
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>
 /// Reads input reports straight from a HID collection that is hidden from Windows (by HidHide), so Windows no

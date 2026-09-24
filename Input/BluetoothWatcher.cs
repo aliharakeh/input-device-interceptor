@@ -4,7 +4,7 @@ using System.Windows.Threading;
 using Windows.Devices.Bluetooth;
 using Windows.Devices.Enumeration;
 
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>A paired Bluetooth device (Classic and LE endpoints of the same device are merged).</summary>
 public sealed class BluetoothDeviceItem : INotifyPropertyChanged

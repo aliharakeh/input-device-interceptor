@@ -1,9 +1,9 @@
 using System.Runtime.InteropServices;
 using System.Windows.Threading;
-using RingInspector.Input;
-using static RingInspector.Native.NativeMethods;
+using InputDeviceInterceptor.Input;
+using static InputDeviceInterceptor.Native.NativeMethods;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 /// <summary>
 /// Suppresses key events (including media keys Windows synthesizes from HID consumer controls) but only when

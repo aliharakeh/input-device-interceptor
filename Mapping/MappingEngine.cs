@@ -1,9 +1,9 @@
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
-using RingInspector.Input;
+using InputDeviceInterceptor.Input;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 /// <summary>Holds the mapping rules, runs their operations and tells the <see cref="KeyBlocker"/> what to block.</summary>
 public sealed class MappingEngine

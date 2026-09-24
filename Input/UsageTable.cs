@@ -1,4 +1,4 @@
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>Names and default Windows behavior for HID usages (see the USB HID Usage Tables spec).</summary>
 public static class UsageTable

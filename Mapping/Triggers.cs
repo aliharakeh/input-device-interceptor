@@ -1,6 +1,6 @@
-using RingInspector.Input;
+using InputDeviceInterceptor.Input;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 /// <summary>
 /// A trigger identifies an input that can be mapped, as a stable string id:

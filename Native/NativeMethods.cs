@@ -1,7 +1,7 @@
 using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 
-namespace RingInspector.Native;
+namespace InputDeviceInterceptor.Native;
 
 /// <summary>Win32 Raw Input + HID parser (hid.dll) interop.</summary>
 internal static unsafe partial class NativeMethods

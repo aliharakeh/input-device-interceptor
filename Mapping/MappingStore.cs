@@ -2,13 +2,13 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
-/// <summary>Persists mapping rules to %AppData%\RingInspector\mappings.json.</summary>
+/// <summary>Persists mapping rules to %AppData%\InputDeviceInterceptor\mappings.json.</summary>
 public static class MappingStore
 {
     public static string FilePath { get; } = Path.Combine(
-        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "RingInspector", "mappings.json");
+        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "InputDeviceInterceptor", "mappings.json");
 
     static readonly JsonSerializerOptions Options = new()
     {

@@ -1,7 +1,7 @@
 using System.ComponentModel;
-using RingInspector.Native;
+using InputDeviceInterceptor.Native;
 
-namespace RingInspector.Input;
+namespace InputDeviceInterceptor.Input;
 
 /// <summary>One Raw Input device (a HID top-level collection) plus the parsing state we keep for it.</summary>
 public sealed class DeviceInfo : INotifyPropertyChanged

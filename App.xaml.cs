@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace RingInspector;
+namespace InputDeviceInterceptor;
 
 public partial class App : Application
 {

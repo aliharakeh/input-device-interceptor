@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace RingInspector.Mapping;
+namespace InputDeviceInterceptor.Mapping;
 
 /// <summary>
 /// Drives HidHide (https://github.com/nefarius/HidHide), a filter driver that hides HID devices from Windows and

@@ -6,11 +6,11 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Interop;
 using System.Windows.Media.Animation;
-using RingInspector.Input;
-using RingInspector.Mapping;
+using InputDeviceInterceptor.Input;
+using InputDeviceInterceptor.Mapping;
 using Windows.Devices.Enumeration;
 
-namespace RingInspector;
+namespace InputDeviceInterceptor;
 
 public partial class MainWindow : Window
 {
